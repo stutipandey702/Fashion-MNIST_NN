@@ -71,7 +71,7 @@ deactivate
 
 ```
 .
-├── intro_pytorch.py       # Main implementation file
+├── fashion_mnist_nn.py       # Main implementation file
 ├── data/                  # Dataset directory (created automatically)
 └── README.md             # This file
 ```
@@ -81,7 +81,7 @@ deactivate
 ### Importing the Module
 
 ```python
-from intro_pytorch import (
+from fashion_mnist_nn import (
     get_data_loader,
     build_model,
     build_deeper_model,
